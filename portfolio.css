@@ -1,0 +1,167 @@
+
+h1
+
+{
+  color: #855723;
+  font-family: AR BONNIE;
+  font-size: 150px;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: center;
+  text-align: center;
+  border-bottom: 1px #ccc dotted; 
+}
+
+  }
+
+@keyframes background {
+  from { background-position: -90% 0; }
+  to { background-position: 100% 0; }
+}
+
+ body
+ {
+  width: 100vw;
+  height: 489.3vw;
+  overflow:hidden;
+  position:absolute;z-index:-1;
+  background-repeat: repeat-x;
+  position: relative;
+}
+
+
+#cloud {
+  color: #333333;
+  font-family: AR BONNIE;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: soft-light;
+  padding: 5px;
+  margin-left: 120px;
+  margin-right: 850px;
+  content: '';
+  opacity: 1;
+  position: relative;
+  top: 360px;
+  left: 170px;
+  animation: float 3.5s infinite ease-in-out;
+}
+
+
+@keyframes float {
+    50% {
+        top: 375px;
+    }    
+    100% { 
+        top: 360px;
+    }
+}
+
+#cloud2 {
+  color: #333333;
+  font-family: AR BONNIE;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: soft-light;
+  padding: 2px;
+  margin-left: 0px;
+  margin-right: 950px;
+  content: '';
+  opacity: 1;
+  position: relative;
+  top: 720px;
+  left: 850px;
+  animation: floats 3.5s infinite ease-in-out;
+}
+
+@keyframes floats {
+    50% {
+        top: 740px;
+    }    
+    100% { 
+        top: 720px;
+    }
+}
+
+#cloud3 {
+  color: #333333;
+  font-family: AR BONNIE;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: soft-light;
+  padding: 5px;
+  margin-left: 0px;
+  margin-right: 650px;
+  content: '';
+  opacity: 0;
+  position: relative;
+  top: 800px;
+  left: 700px;
+  animation: floatss 3.5s infinite ease-in-out;
+}
+
+@keyframes floatss {
+    50% {
+        top: 820px;
+    }    
+    100% { 
+        top: 800px;
+    }
+}
+
+body
+{
+  max-width: 1200px;
+  float: none;
+  margin: auto; 
+  overflow: scroll;
+}
+
+
+p{ 
+  padding:10px; 
+  border-bottom: 1px #ccc dotted; 
+  text-transform:uppercase; 
+  font-size: 10px; 
+  color: #333; 
+  display:block; 
+}
+
+
+
+.tile img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  
+}
+
+.btn {
+    font-family: AR BONNIE;
+    font-size: 26px;
+    font-weight: normal;
+    position: relative;
+    left: 23px;
+    margin-left: 57px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    border: 0.1px;
+    padding: 0rem 0rem;
+    padding-top: 0.6rem;
+    height: auto;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #555;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn:focus 
+

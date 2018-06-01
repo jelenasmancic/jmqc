@@ -1,0 +1,72 @@
+img
+
+{
+    position: relative;
+    left: 440px;
+    background-position: center;
+    margin-top: 60px;
+}
+
+h1
+
+{
+	color: #855723;
+ 	font-family: AR BONNIE;
+	font-size: 120px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: center;
+	text-align: center;
+	border-bottom: 1px #ccc dotted; 
+}
+
+p
+
+{
+	color: #555;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: lighter;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+	vertical-align: center;
+	
+}
+
+
+body
+{
+  max-width: 1200px;
+  float: none;
+  margin: auto; 
+}
+
+.btn {
+    font-family: AR BONNIE;
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-left: 45px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    border: 1px;
+    padding: 0rem 0rem;
+    padding-top: 0.5rem;
+    position: relative;
+    left: 130px;
+    height: auto;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #555;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn:focus 
+
